@@ -2,10 +2,9 @@ package com.example.dto.gpx;
 
 import java.util.List;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(namespace="http://www.topografix.com/GPX/1/1")
 public class Gpx {
 	
 	private Meta metadata;

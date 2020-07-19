@@ -27,7 +27,6 @@ public class GPSService {
 		try {
 			filesStorageService.save(file, Constants.USER_ID);
 			Gpx gpx = fileParserService.parseGPX(file.getInputStream());
-			gpx = gpx;
 			return new FileUploadResponseMessage("Uploaded the file successfully:" + file.getOriginalFilename());
 		} catch(Exception e) {
 			LOGGER.log(Level.SEVERE, "Cannot upload file", e);
