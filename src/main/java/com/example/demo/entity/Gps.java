@@ -17,10 +17,10 @@ public class Gps {
 	@Column(name = "id", nullable = false)
 	private Long id;
 	
-	@Column(name = "name", length = 300, nullable = false)
+	@Column(name = "name", length = 200, nullable = false)
 	private String name;
 	
-	@Column(name = "file_path", length = 500, nullable = false)
+	@Column(name = "file_path", length = 200, nullable = false)
 	private String filePath;
 	
 	@Column(name = "description", length = 5000, nullable = false)

@@ -31,7 +31,7 @@ public class GpsTrack {
 	@Column(name = "id", nullable = false)
 	private Long id;
 	
-	@Column(name = "gps_id", length = 100, nullable = false)
+	@Column(name = "gps_id", nullable = false)
 	private Long gpsId;
 	
 	@Column(name = "lat", nullable = false, precision = 25, scale = 7)

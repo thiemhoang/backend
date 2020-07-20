@@ -31,10 +31,10 @@ public class GpsPoint {
 	@Column(name = "id", nullable = false)
 	private Long id;
 	
-	@Column(name = "gps_id", length = 100, nullable = false)
+	@Column(name = "gps_id", nullable = false)
 	private Long gpsId;
 	
-	@Column(name = "name", length = 100, nullable = false)
+	@Column(name = "name", length = 200, nullable = false)
 	private String name;
 	
 	@Column(name = "lat", nullable = false, precision = 25, scale = 7)
