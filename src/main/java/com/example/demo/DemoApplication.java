@@ -9,8 +9,10 @@ import com.example.demo.configuration.ApplicationConfiguration;
 @SpringBootApplication
 @Import(ApplicationConfiguration.class)
 public class DemoApplication {
+	
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
+	
 }
